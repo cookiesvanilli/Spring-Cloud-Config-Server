@@ -1,0 +1,13 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: configs
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:cookiesvanilli/Spring-Cloud-Config-Server.git
+          username: (GITHUB USERNAME)
+          password: (GITHUB PASSWORD / GITHUB TOKEN)
